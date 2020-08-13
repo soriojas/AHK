@@ -1,2 +1,2 @@
-;738px wide
+;1028px wide
 
