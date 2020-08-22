@@ -26,6 +26,10 @@ F8::
  send {ctrl down}{up}{ctrl up}{right}{right}{space}{right}{right}{right}{right}{right}{right}{right}{space}{right}{space}
  ; change window to document
  send {alt down}{tab down}{tab up}{alt up}
+ ; mouse over document
+ MouseMove, 202 , 227 , 4
+ click
+ sleep 30
  ; next page
  ;MouseMove, 920 , 628, 4
  ;click
