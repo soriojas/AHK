@@ -17,5 +17,10 @@ F8::
  send {alt down}{tab down}{tab up}{alt up}
  ; scroll down
  send {ctrl down}{pgdn down}{pgdn up}{ctrl up}
+ ; mouse over Wordpad
+ MouseMove, 1442 , 970 , 4
+ ; paste
+ send {ctrl down}{v down}{v up}{ctrl up}
+
  
 return
