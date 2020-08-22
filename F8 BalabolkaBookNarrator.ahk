@@ -28,4 +28,6 @@ F8::
  ;MouseMove, 920 , 628, 4
  ;click
  send {right}
+ ; wait for page to load
+ sleep 2000
 return
