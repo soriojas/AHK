@@ -1,3 +1,4 @@
-;1028px wide
-;283 218 top left
-;812 914 bottom right
+;754px wide
+;192 207 top left
+;840 1000 bottom right
+
