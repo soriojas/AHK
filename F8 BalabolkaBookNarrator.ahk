@@ -1,10 +1,10 @@
 ;754px wide
 ;192 207 top left
 ;840 1000 bottom right
-highlightspeed = 4
+highlightspeed = 10
 
 F8::
- MouseMove, 202 , 227 , %highlightspeed%
+ MouseMove, 202 , 227 , 4
  click, down
  sleep 30
  MouseMove, 840 , 1000 , %highlightspeed%
