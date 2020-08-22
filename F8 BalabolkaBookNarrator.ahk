@@ -4,9 +4,9 @@
 highlightspeed = 10
 setkeydelay, 30
 
-currentpage = 100
+startpage = 100
 finalpage = 117
-loopcount := finalpage-currentpage
+loopcount := finalpage-startpage
 
 pause
 
