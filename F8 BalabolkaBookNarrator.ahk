@@ -22,6 +22,10 @@ F8::
  ; paste
  send {ctrl down}{v down}{v up}{ctrl up}
  ; reformat text
+ ;                            |            |      |
  send {ctrl down}{up}{ctrl up}{right}{right}{space}{right}{right}{right}{right}{right}{right}{right}{space}{right}{space}
- 
+ ; next page
+ ;MouseMove, 920 , 628, 4
+ ;click
+ send {right}
 return
