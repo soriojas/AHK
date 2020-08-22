@@ -18,7 +18,7 @@ currentpage := startpage
   ; mouse over document
   MouseMove, 202 , 227 , 6
   click
-  sleep 30
+  sleep 100 ;--observed bug: will not select all if this value is too low
 
   ; select all
   send {ctrl down}{a down}{a up}{ctrl up}
@@ -65,7 +65,7 @@ currentpage := startpage
   ;--removed
 
   ; wait for page to load
-  sleep 2000
+  sleep 100
  }
  
  
