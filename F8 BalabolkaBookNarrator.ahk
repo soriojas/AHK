@@ -1,15 +1,16 @@
 ;754px wide
 ;192 207 top left
 ;840 1000 bottom right
-highlightspeed = 10
-setkeydelay, 30
-
-startpage = 99
-finalpage = 117
-loopcount := finalpage-startpage
-currentpage = 0
 
 pause
+highlightspeed = 10
+setkeydelay, 30
+;********EDIT ME***************
+startpage = 99
+finalpage = 117
+;******************************
+loopcount := finalpage-startpage
+currentpage = 0
 
  loop % (loopcount)
  {
