@@ -26,6 +26,11 @@ currentpage := startpage
   ; copy
   send {ctrl down}{c down}{c up}{ctrl up}
 
+  ; next page
+  ;MouseMove, 920 , 628, 4
+  ;click
+  send {right}
+
   ; change window to wordpad
   send {alt down}{tab down}{tab up}{alt up}
 
@@ -57,9 +62,7 @@ currentpage := startpage
   sleep 30
 
   ; next page
-  ;MouseMove, 920 , 628, 4
-  ;click
-  send {right}
+  ;--removed
 
   ; wait for page to load
   sleep 2000
