@@ -13,7 +13,7 @@ F8::
  send {ctrl down}{a down}{a up}{ctrl up}
  ; copy
  send {ctrl down}{c down}{c up}{ctrl up}
- ; change window
+ ; change window to wordpad
  send {alt down}{tab down}{tab up}{alt up}
  ; scroll down
  send {ctrl down}{pgdn down}{pgdn up}{ctrl up}
@@ -24,6 +24,8 @@ F8::
  ; reformat text
  ;                            |            |      |
  send {ctrl down}{up}{ctrl up}{right}{right}{space}{right}{right}{right}{right}{right}{right}{right}{space}{right}{space}
+ ; change window to document
+ send {alt down}{tab down}{tab up}{alt up}
  ; next page
  ;MouseMove, 920 , 628, 4
  ;click
