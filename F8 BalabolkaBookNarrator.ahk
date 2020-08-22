@@ -18,7 +18,7 @@ currentpage = 0
   currentpage := startpage+loopcount
   send --%currentpage%-- 
   ; mouse over document
-  MouseMove, 202 , 227 , 4
+  MouseMove, 202 , 227 , 6
   click
   sleep 30
   ; select all
