@@ -13,4 +13,7 @@ F8::
  send {ctrl down}{a down}{a up}{ctrl up}
  ; copy
  send {ctrl down}{c down}{c up}{ctrl up}
+ ; change window
+ send {alt down}{tab down}{tab up}{alt up}
+ 
 return
