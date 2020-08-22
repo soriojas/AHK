@@ -15,5 +15,7 @@ F8::
  send {ctrl down}{c down}{c up}{ctrl up}
  ; change window
  send {alt down}{tab down}{tab up}{alt up}
+ ; scroll down
+ send {ctrl down}{pgdn down}{pgdn up}{ctrl up}
  
 return
