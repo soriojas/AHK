@@ -21,6 +21,7 @@ F8::
  MouseMove, 1442 , 970 , 4
  ; paste
  send {ctrl down}{v down}{v up}{ctrl up}
-
+ ; reformat text
+ send {ctrl down}{up}{ctrl up}{right}{right}{space}{right}{right}{right}{right}{right}{right}{right}{space}{right}{space}
  
 return
