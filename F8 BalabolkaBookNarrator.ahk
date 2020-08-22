@@ -23,7 +23,8 @@ F8::
  send {ctrl down}{v down}{v up}{ctrl up}
  ; reformat text
  ;                            |            |      |
- send {ctrl down}{up}{ctrl up}{right}{right}{space}{right}{right}{right}{right}{right}{right}{right}{space}{right}{space}
+ ;send {ctrl down}{up}{ctrl up}{right}{right}{space}{right}{right}{right}{right}{right}{right}{right}{space}{right}{space}{ctrl down}{pgdn down}{pgdn up}{ctrl up}{enter}
+ send {ctrl down}{pgdn down}{pgdn up}{ctrl up}{enter}
  ; change window to document
  send {alt down}{tab down}{tab up}{alt up}
  ; mouse over document
