@@ -4,14 +4,18 @@
 highlightspeed = 10
 setkeydelay, 30
 
-startpage = 100
+startpage = 99
 finalpage = 117
 loopcount := finalpage-startpage
+currentpage = 0
 
 pause
 
  loop % (loopcount)
  {
+  ; type page number
+  currentpage := startpage+loopcount
+  send --%currentpage%-- 
   ; mouse over document
   MouseMove, 202 , 227 , 4
   click
