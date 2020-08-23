@@ -6,8 +6,8 @@ pause
 highlightspeed = 10
 setkeydelay, 30
 ;********EDIT ME***************
-startpage = 99
-finalpage = 117
+startpage = 77
+finalpage = 99
 header = ch5
 ;******************************
 loopcount := finalpage-startpage
@@ -70,3 +70,4 @@ currentpage := startpage
  
  
 F8::pause
+F7::reload
